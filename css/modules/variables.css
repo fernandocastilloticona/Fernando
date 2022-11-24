@@ -1,0 +1,8 @@
+:root{
+    scroll-behavior: smooth;
+    --primary-theme-color: rgb(4, 43, 97) ;
+    --secondary-theme-color: rgb(20, 192, 97);
+    --primary-text-color:white;
+    --secondary-text-color: rgb(118, 33, 188);
+    --primary-shadow-color:#1fe51f5d;
+}
