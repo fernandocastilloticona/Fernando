@@ -1,196 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Fernando Castillo</title>
-    <link rel="stylesheet" href="./css/index.css">
-    
-  <!-- HTML Meta Tags -->
-  <title>Fernando Castillo</title>
-  <meta name="description" content="software development">
-
-  <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="https://fernandocastilloticona.github.io/Fernando/">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Fernando Castillo">
-  <meta property="og:description" content="software development">
-  <meta property="og:image" content="https://img.freepik.com/foto-gratis/lindo-perrito-haciendose-pasar-persona-negocios_23-2148985938.jpg">
-
-  <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:domain" content="fernandocastilloticona.github.io">
-  <meta property="twitter:url" content="https://fernandocastilloticona.github.io/Fernando/">
-  <meta name="twitter:title" content="Fernando Castillo">
-  <meta name="twitter:description" content="software development">
-  <meta name="twitter:image" content="https://img.freepik.com/foto-gratis/lindo-perrito-haciendose-pasar-persona-negocios_23-2148985938.jpg">
-
-  <!-- Meta Tags Generated via https://www.opengraph.xyz -->
-        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEP APIPA</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 </head>
-
-<body class="body">
-    <header>
-        <nav>
-            <div class="container">
-            <a href="#hero">
-                <img src="./img/Foto de Perfil.webp" alt="Logo" width="256" height="256" />
-            </a>
-            <ul class="menu">
-                <li>
-                    <a href="#hero" class="hero">Perfil</a>
-                </li>
-                <li>
-                    <a href="#experiencias" class="experiencias">Experiencia</a>
-                </li>
-                <li>
-                    <a href="#contacto" class="contacto">Contacto</a>
-                </li>
-            </ul>
-            </div>
+<body>
+    
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicio">Escuela Dominical</a>
+                <a href="#galeria">Grupo Juvenil</a>
+                <a href="#expertos">E.T</a>
+                <a href="#footer">Contacto</a>
         </nav>
+        <div class="contenedor head">
+            <!-- titulo de medio -->
+            <h1 class="titulo"></h1>
+            <p class="copy"></p>
+        </div>
+        
     </header>
-    <br>
     <main>
-        <article id="hero">
-            <div>
-                <div>
-                    <header>
-                        <h1> 😎Fernando Castillo</h1>
-                    </header>
-
-                    <section>
-                        <h2> El mejor Desarrollador Web Full Stack</h2>
-                        <p>
-                            Desarrollador apasionado por la programacion y Proyectos
-                        </p>
-                    </section>
-                    <footer>
-                        <div>
-                            <a href="https://www.facebook.com/fenandocas/" target="_blank"
-                                rel="noopener noreferrer">cv</a>
-                            <a href="https://www.facebook.com/fenandocas/" target="_blank" rel="noopener noreferrer">git
-                                hub</a>
-                        </div>
-                    </footer>
-                </div>
-                <div>
-                    <img src="./img/perfilfernando.jpeg" alt="Fernando Castillo" width="256" height="256">
-                    <figure>
-                        <img src="./img/html-svgrepo-com.svg" alt="html" width="50" height="50">
-                        <img src="./img/css-svgrepo-com.svg" alt="html" width="50" height="50">
-                        <img src="./img/js-svgrepo-com (1).svg" alt="html" width="50" height="50">
-                        <img src="./img/c-svgrepo-com.svg" alt="html" width="50" height="50">
-                    </figure>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img src="./img/culto general logo.png" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Culto General</h3>
+                        <p> Viviendo en la Palabra para la gloria de Dios. Visítanos cada domingo en uno de nuestros dos servicios a las: 2:00 p.m.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Escuela Dominical</h3>
+                        <p> Dios diseñó la familia y los niños son su regalo. Por este motivo, invitamos a todos los niños a aprender dinamicanmente la palabra de Dios cada domingo en uno de nuestros dos servicios a las: 2:00 p.m.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Reunion Juvenil</h3>
+                        <p> Los jóvenes que dedican sus vidas al Señor no quedarán frustrados porque tienen la certeza de que Dios bendice a los que le sirven. No pierdas el tiempo con cosas triviales, ¡vive para el Señor desde tu juventud! Sumate a nuestra comunidad GRUPO JUVENIL APIPA , TE ESPERAMOS</p>
+                    </div>
                 </div>
             </div>
-        </article>
-        <section id="experiencias">
-            <header>
-                <h2>✌EXPERIENCIAS</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Nª</th>
-                            <th>Empresa</th>
-                            <th>Cargo</th>
-                            <th>Funciones</th>
-                            <th>Periodo</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Grupo Marvo</td>
-                            <td>Tecnico</td>
-                            <td>
-                                <ul>
-                                    <li>Reparacion de laptops</li>
-                                    <li>emsamblaje de computadoras</li>
-                                </ul>
-                            </td>
-                            <td>enero 2022-Presente</td>
-
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Grupo Kento</td>
-                            <td>Tecnico</td>
-                            <td>
-                                <ul>
-                                    <li>Investigacion</li>
-                                    <li>programacion</li>
-                                </ul>
-                            </td>
-                            <td>enero 2021-enero 2022</td>
-                        <tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td colspan="5">
-                                <a href="https://www.facebook.com/fenandocas/" target="_blank"
-                                    rel="noopener noreferrer">Ver mas..</a>
-                            </td>
-                        </tr>
-                    </tfoot>
-                </table>
-            </header>
-            <div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="./img/APIPA LIDERES.jpeg" class="img-galeria" alt="Hola">
+                    <img src="./img/APIPA LIDERES 2.jpeg" class="img-galeria" alt="">
+                    <img src="./img/JOVENES REUNION.jpeg" class="img-galeria" alt="" >
+                    <img src="./img/NIÑOS ESCUELA DOMINICAL.jpeg" class="img-galeria" alt="" >
+                    <img src="img/cinco.jpg" class="img-galeria" alt="">
+                    <img src="img/seis.jpg" class="img-galeria" alt="">
+                </div>
             </div>
         </section>
-        <hr>
-        <section id="contacto">
-            <div>
-                <h2>Contacto</h2>
-                <form>
-                    <input type="tel" placeholder="Celular" required>
-                    <button>Contactar</button>
-
-                </form>
-            </div>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Cursos E.T :</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="./img/biblia.png" alt="">
+                    <h3 class="n-expert">Estudio Biblia</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="./img/cristologia.png" alt="">
+                    <h3 class="n-expert">Cristologia</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="./img/teologia.jpg" alt="">
+                    <h3 class="n-expert">Teologia</h3>
+                </div>
+            </section>
         </section>
-        <hr>
-        <section>
-            <div>
-                <h2>Frase Motivadora</h2>
-                <p>Te deseo muchos exitos en el Curso</p>
-            </div>
-        </section>
-
-        <section>
-
-
-        </section>
-
     </main>
-    <br>
-    <footer>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://www.youtube.com/watch?v=lV-D6nH8ZrA&list=PL-v-u4fOImqeo1bD51UtBdhB_b6uW8bIa">
-                        <img src="./img/icons8-youtube-play.svg" alt="Youtube" width="24" height="24" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/fernandocastilloticona">
-                        <img src="./img/icons8-github.svg" alt="Github" width="24" height="24" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com">
-                        <img src="./img/icons8-facebook-nuevo.svg" alt="Facebook" width="24" height="24" />
-                    </a>
-                </li>
-            </ul>
-            <h2>
-                Copyright &copy;
-                <a href="https://www.facebook.com">Fernando Castillo</a>
-            </h2>
-        </nav>
-    </footer>
-    <br>
-</body>
 
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">IEP</h2>
+                    <p>Una Familia unida en Cristo</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/profile.php?id=100068379060743" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
 </html>
